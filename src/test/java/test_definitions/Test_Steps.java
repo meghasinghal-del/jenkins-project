@@ -18,7 +18,7 @@ public class Test_Steps {
 	public static WebDriver driver;
 	@Given("^Raghu has registered in to TestMeApp$")
 	public void raghu_has_registered_in_to_TestMeApp() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chrome driver\\chromedriver_win32\\chromedriver.exe");
 
         driver = new ChromeDriver();
 

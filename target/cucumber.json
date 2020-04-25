@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 111189949400,
+              "duration": 57906909487,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 15578471100,
+              "duration": 2693381676,
               "status": "passed"
             },
             "line": 9,
@@ -60,8 +60,9 @@
         "steps": [
           {
             "result": {
-              "duration": 19907028000,
-              "status": "passed"
+              "duration": 252657287,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#myInput\"}\n  (Session info: chrome\u003d81.0.4044.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027DESKTOP-C81SREL\u0027, ip: \u0027192.168.225.48\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162-ea\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\\Users\\Dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6794e197152922fd5e9bae9c5bbd3fca\n*** Element info: {Using\u003did, value\u003dmyInput}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat test_definitions.Test_Steps.user_search_for_particular_product_and_enter_product_name_as(Test_Steps.java:42)\r\n\tat ✽.When user search for particular product and enter product name as \"head\"(addToCart.feature:18)\r\n",
+              "status": "failed"
             },
             "line": 18,
             "name": "user search for particular product and enter product name as \"head\"",
@@ -81,8 +82,7 @@
           },
           {
             "result": {
-              "duration": 29538004800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "try to proceed the payment without adding any item in cart",
@@ -93,8 +93,7 @@
           },
           {
             "result": {
-              "duration": 299300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "TestMeApp doesn\u0027t display the cart icon",

@@ -10,7 +10,7 @@ When Raghu enter Username as "<username>" and Password as "<password>"
 
 Examples: −
 | username  | password  |
-| raghu2241 | 123456 |
+| meghsing | megh12 |
  
  
 Scenario Outline: The one where the user moves to cart without adding any item in it.
