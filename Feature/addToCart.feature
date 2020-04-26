@@ -4,9 +4,9 @@ Description: The purpose of this feature is to test the order actions
 
 Scenario Outline: For searching product user must be registered and login using valid credentials
 
-Given Megha has registered in to TestMeApp
+Given Raghu has registered in to TestMeApp
 
-When Megha enter Username as "<username>" and Password as "<password>"
+When Raghu enter Username as "<username>" and Password as "<password>"
 
 Examples: −
 | username  | password  |
